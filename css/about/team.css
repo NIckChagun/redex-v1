@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.team {
+    width: 80%;
+    height: auto;
+    /* background-color:antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.title-team {
+    width: 450px;
+    height: 125px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 20px 0;
+    /* background-color: aquamarine; */
+}
+.bg-box {
+    float: left;
+    /* background-color: aqua; */
+    margin: 40px 10px 0 0;
+}
+.box {
+    width: 11px;
+    height: 11px;
+    background-color: red;
+    /* float: left;
+    margin: 15px; */
+}
+.title-team h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #37393F;
+    margin: 35px 0 35px 0;
+}
+.title-team h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #37393F;
+    margin: -80px 0 0 0;
+}
+/* title */
+
+.container-team {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    gap: 20px;
+}
+.container-team img {
+    width: 355px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}

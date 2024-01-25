@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.bg-banner {
+    /* background: url("../image/rectangle0.png") no-repeat; */
+    background: url("/image/rectangle0.png") no-repeat;
+    height: 650px;
+    background-size: cover;
+    /* filter: brightness(0.7);  */
+}
+.container-banner {
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 80px; 
+}
+.info-banner h1{
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffff;
+}
+.info-banner p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffff;
+    padding-top: 10px;
+}
+.btn-light-banner {
+    width: 350px;
+    height: 85px;
+    background-color: #ffff;
+    border-radius: 16px;
+    margin: 100px 0 0 50px;
+}
+.logo-light{
+    width: 60px;
+    height: 55px;
+    margin: 10px 3px 3px 15px;
+    float: left;
+}
+.btn-light-banner h1 {
+    font-size: 24px;
+    color: black;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.btn-light-banner p {
+    font-size: 18px;
+    color: black;
+    float: left;
+    margin: 0 0 0 10px;
+}
+.line-light {
+    width: 350px;
+    height: 2px;
+    background-color: #ffff;
+    margin-top: -45px;
+    margin-left: 205px;
+}
+.line-light2 {
+    width: 2px;
+    height: 135px;
+    background-color: #ffff;
+    margin-top: -2px;
+    margin-left: 555px;
+}
+.mark-light {
+    width: 10px;
+    height: 10px;
+    background-color: #ffff;
+    border-radius: 36px;
+    margin-top: -6px;
+    margin-left: 551.5px;
+}

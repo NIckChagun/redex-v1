@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.content {
+    /* width: 80%; */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+.content-head {
+    padding-top: 20px;
+    text-align: center;
+}
+.content-head h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+}
+.container-content {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding: 25px 0 25px 0;
+}
+.container-l {
+    width: 115%;
+    height: auto;
+    /* background-color:aqua; */
+}
+.container-l img {
+    width: 100%;
+    height: auto;
+}
+.bg-box {
+    float: left;
+    width: 20px;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    margin: 15px;
+}
+.box {
+    width: 11px;
+    height: 11px;
+    background-color: red;
+    /* float: left;
+    margin: 15px; */
+}
+.container-r {
+    width: 100%;
+    /* height: auto; */
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+    padding: 100px 80px 0 80px;
+}
+.title h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.title p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+}
+.img-why-us4 {
+    border-radius: 10px;
+}
+
+/* Responsive Tablet*/
+@media (max-width: 835px) {
+    .container-content {
+        flex-direction: column; 
+    }
+
+    .container-l,
+    .container-r {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .container-l img,
+    .container-r img {
+        margin-bottom: 10px; 
+    }
+
+    .container-r {
+        padding: 0 0 0 0 ;
+    } 
+
+    .title {
+        padding: 0; 
+    }
+
+    .title p {
+        padding: 0 0 0 50px
+    }
+}
+/* Responsive */
