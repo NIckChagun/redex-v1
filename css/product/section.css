@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.bg-section-product {
+    width: 100%;
+    height: 300px;
+    /* background-color: #C4C4C4; */
+    background-color: #37393F;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.container-product {
+    width: 80%;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-section {
+    width: 260px;
+    height: auto;
+    /* background-color: antiquewhite; */
+
+    text-align: center;
+}
+.title-section h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ED3D3F;
+}
+.title-section h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+}

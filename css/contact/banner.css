@@ -5,7 +5,7 @@
 
 .bg-banner {
     background-color: #171717;
-    margin: 0 auto;
+    margin: 70px auto 0 auto;
 }
 .banner {
     /* max-width: 1440px; */
@@ -24,7 +24,7 @@
     text-align: left;
     align-items: center;
     justify-items: center;
-    padding: 110px 80px 0 145px;
+    padding: 140px 80px 0 145px;
 }
 .bg-box {
     float: left;
@@ -59,9 +59,8 @@
     color: #B9B9B9;
 }
 .banner-r {
-    /* width: 60%; */
-    width: 61%;
-    background: url("/image/product-banner.png") no-repeat;
+    width: 60%;
+    background: url("/image/contact-img-1.png") no-repeat;
     height: 401px;
     background-size: cover;
     float: left;
