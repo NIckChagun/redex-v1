@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+
+.redex-welcome img {
+    width: 100%;
+    height: auto;
+}
+section {
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+.container-map {
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+}
+.profile-map img {
+    width: 80%;
+    height: auto;
+}
+.map-info {
+    width: 500px;
+    height: auto;
+    /* background-color: antiquewhite; */
+    margin-left: -50px;
+    padding-top: 50px;
+}
+.bg-box-map {
+    float: left;
+    width: 16px;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    margin: 15px;
+    margin-top: 6px;
+}
+.box-map {
+    width: 11px;
+    height: 11px;
+    background-color: red;
+}
+.title-map {
+    font-family: "Inter", sans-serif;
+}
+.title-map h5 {
+    font-size: 18px;
+    font-family: 400;
+    color: #37393F;
+}
+.title-map h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #37393F;
+}
+.title-map p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+.send-me-contact1,
+.send-me-contact2,
+.send-me-contact3
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+.icon-phone {
+    width: 72px;
+    height: 72px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+    display: grid;
+    place-items: center;
+}
+.icon-phone img {
+    width: 30px;
+    height: 30px;
+}
+.icon-email {
+    width: 72px;
+    height: 72px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+    display: grid;
+    place-items: center;
+}
+.icon-email img {
+    width: 30px;
+    height: 30px;
+}
+.icon-map {
+    width: 72px;
+    height: 72px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+    display: grid;
+    place-items: center;
+}
+.icon-map img {
+    width: 30px;
+    height: 30px;
+}
+.phone-detail,
+.email-detail,
+.map-detail
+ {
+    width: 330px;
+    height: 50px;
+    /* background-color: #7D7D7D; */
+    margin-top: 30px;
+
+    font-family: "Inter", sans-serif;
+}
+.phone-detail p,
+.email-detail p,
+.map-detail p 
+{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+.phone-detail h5,
+.email-detail h5,
+.map-detail h5 
+{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -15px;
+}

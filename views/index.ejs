@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="./css/home/banner.css">
+    <link rel="stylesheet" href="./css/home/content.css">
+    <link rel="stylesheet" href="./css/home/partner.css">
+    <link rel="stylesheet" href="./css/home/section.css">
+    <title>redex</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img class="logo-redex-removebg-1" src="./image/logo-redex-removebg-10.png" />
+            </div>
+    
+            <!-- ปุ่ม "hamburger" ที่มี data-bs-toggle="offcanvas" และ data-bs-target="#offcanvas" -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- ส่วนของเนื้อหาสไลด์ -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <!-- เนื้อหาเมนู -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/product">Product &amp; Solution</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- banner -->
+    <div class="bg-banner" style="background: url('./image/rectangle0.png') no-repeat; height: 650px; background-size: cover;">
+
+        <div class="container-banner">
+
+            <div class="info-banner">
+                
+                <h1>
+                    Smart Home Automate System 
+                    <br>
+                    Solution Provider.
+                 </h1>
+                
+                <p>
+                    We, RedEx is redefining your experiences by our,
+                    <br/>
+                    distinctive Services and Solution Providing to achieve highest Service
+                    Excellency.
+                </p>
+
+                <div class="btn-light-banner">
+                    <img class="logo-light" src="./image/btn-light.png" alt="">
+
+                    <h1>Smart Light</h1>
+                    <p>Control the lighting system.</p>
+
+                </div>
+
+                <div class="line-light"></div>
+                <div class="line-light2"></div>
+                <div class="mark-light"></div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- banner -->
+
+    <!-- content -->
+    <article>
+        <div class="content">
+
+            <div class="content-head">
+                <h1>
+                    Why us?
+                </h1>
+            </div>
+
+
+            <div class="container-content">
+
+                <div class="container-l">
+                    <img class="img-why-us1" src="./image/provider-10.png">
+                </div>
+
+                <div class="container-r">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            IT Solution Provider
+                        </h2>
+                        <p>
+                            We are expert in providing broadrange of IT Solution Network (Wired&Wireless), NextGen Security Solution,
+                            Cloud Virtualization. - As a True Total IT Solution Provider
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-content">
+
+                <div class="container-r" style="margin-right: 60px;">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            Consultant Service
+                        </h2>
+                        <p>
+                            Our Expert Team provides Consultant Service to our client,
+                            to assess, analyze and Gap Analysis, recommendations
+                            along with Master Plan. To help, our client meet their Business Target.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-l">
+                    <img class="img-why-us2" src="./image/consult-10.png">
+                </div>
+
+            </div>
+
+            <div class="container-content">
+
+                <div class="container-l">
+                    <img class="img-why-us3" src="./image/image-51.png">
+                </div>
+
+                <div class="container-r">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            AI - IOT - Big Data
+                        </h2>
+                        <p>
+                            Artificial Intelligent + Internet of Things + Big Data
+                            is the new combination to drive the business success.
+                            We provide tailor made Application, Devices and Platform to drive our client's "NOW FUTURE" business.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-content">
+
+                <div class="container-r" style="margin-right: 60px;">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            Site Preparation
+                        </h2>
+                        <p>
+                            Cablings, Wirings, Electrical Power-Line or even Building
+                            Complete Set Datacenter Room Foundation of IT Infrastructure.
+                            We provide well Planned with Cost Effective Flexible Solution to our
+                            Client to meet their IT Requirement.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-l">
+                    <img class="img-why-us4" src="./image/IT-Infrastructure.jpg">
+                </div>
+
+            </div>
+
+            <div class="container-content">
+
+                <div class="container-l">
+                    <img class="img-why-us4" src="./image/software.jpg">
+                </div>
+
+                <div class="container-r">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            Software R&D
+                        </h2>
+                        <p>
+                            Our Software R&D Team provide most Flexible Application Delivery
+                            with limitless Ability to Interopt&Integrate or provide Sophisticated
+                            Application to match most of our Client's Business Needs. - In any Platform.         
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-content">
+
+                <div class="container-r" style="margin-right: 60px;">
+                    <div class="bg-box">
+                        <div class="box">
+                        </div>
+                    </div>
+                    <div class="title">
+                        <h2>
+                            Total Care Services
+                        </h2>
+                        <p>
+                            Our Professional Team provide "Total Care Service"
+                            "Corrective Maintenance" and "Analysis - 
+                            Review - Report" Elements to help our Client's Business Continuity. With "TRUST"
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container-l">
+                    <img class="img-why-us4" src="./image/Services.jpg">
+                </div>
+
+            </div>
+
+        </div>
+    </article>
+    <!-- content -->
+
+    <!-- partner -->
+    <div class="partner">
+        <br>
+        <div class="head-partner">Our Partners</div>
+          <div class="team-partners">
+              <img class="image-30" src="./image/image-300.png" />
+              <img class="image-9" src="./image/image-90.png" />
+              <img class="image-11" src="./image/image-110.png" />
+              <img class="image-8" src="./image/image-80.png" />
+              <img class="image-12" src="./image/image-120.png" />
+              <img class="image-13" src="./image/image-130.png" />
+              <img class="image-322" src="./image/image-320.png" />
+              <img class="image-15" src="./image/image-150.png" />
+              <img class="image-14" src="./image/image-140.png" />
+              <img class="image-16" src="./image/image-160.png" />
+              <img class="image-17" src="./image/image-170.png" />
+              <img class="image-18" src="./image/image-180.png" />
+              <img class="image-33" src="./image/image-330.png" />
+              <img class="image-23" src="./image/image-230.png" />
+              <img class="image-22" src="./image/image-220.png" />
+              <img class="image-19" src="./image/image-190.png" />
+              <img class="image-21" src="./image/image-210.png" />
+              <img class="image-34" src="./image/image-340.png" />
+              <img class="image-27" src="./image/image-270.png" />
+              <img class="image-26" src="./image/image-260.png" />
+              <img class="image-25" src="./image/image-250.png" />
+              <img class="image-24" src="./image/image-240.png" />
+              <img class="image-28" src="./image/image-280.png" />
+              <img class="image-35" src="./image/image-350.png" />
+          </div>
+          
+    </div>
+    <!-- partner -->
+
+    <!-- section -->
+    <div class="section">
+
+        <div class="bg-section">
+
+            <div class="container-section row">
+
+                <div class="container-section-l col-7">
+
+                    <img src="./image/redex-welcome.png" alt="">
+                
+                </div>
+
+                <div class="container-section-r col-5">
+
+                    <h1>"Striving for Excellence" Our Redex's Phillosophy</h1>
+
+                    <p>
+                        We are Striving our Best, to achive the Excellency of Products,
+                        Services, and Solution Providing to our Customer, as our Intimate Partner.
+                        We carefully choose the most suitable worthwhile Solution to meet with our
+                        Customer's Business needs, with Flexibility to adapt and Complete to provide.
+                        - Truely End-to-End Solution Provider.  
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- section -->
+
+
+    <!-- scroll to top -->
+    <button class="scroll" id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- scroll to top -->
+
+    <!-- footer -->
+    <footer class="footer row">
+
+        <div class="container-footer">    
+
+            <div class="footer-name col-3">
+                <h2>
+                © COPYRIGHT 2019,<br>
+                RED EXCELLENT CO., LTD.
+                </h2>
+            </div>
+
+            <div class="footer-social col-3">
+                <h2>Social Media</h2>
+                
+                <img src="./image/facebook.png" alt="">
+                <img src="./image/twitter.png" alt="">
+                <img src="./image/www.png" alt="">
+            </div>
+
+            <div class="footer-info col-3">
+                <h2>Get in touch</h2>
+                <a href="">You can drop us an</a>
+                <a href="">Email at:contact@redex.co.th</a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- footer -->
+
+    <script src="./js/scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

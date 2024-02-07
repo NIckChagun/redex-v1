@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.section {
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 40px auto 80px auto;
+}
+.container-section {
+    width: auto;
+    height: auto;
+}
+.container-section-r {
+    margin: 50px 0 0 0;
+}
+.container-section-r h1 {
+    /* background-color: antiquewhite; */
+    width: 400px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ED3D3F;
+    margin-bottom: 20px;
+}
+.container-section-r p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #575757;
+    text-align: justify;
+    margin-right: 40px;
+}

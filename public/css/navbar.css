@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #ffff;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    width: 450px;
+    justify-content: space-between;
+}
+
+.navbar a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: red !important;
+}
+
+.navbar a.active {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: red !important;
+}
+/* navbar */
+

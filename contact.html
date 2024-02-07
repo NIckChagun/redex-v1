@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>redex</title>
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/contact/banner.css">
-    <link rel="stylesheet" href="./css/contact/content.css">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -14,13 +11,21 @@
     crossorigin="anonymous"
     />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contact/banner.css">
+    <link rel="stylesheet" href="./css/contact/content.css">
+    <link rel="stylesheet" href="./css/contact/section.css">
 </head>
 <body>
      <!-- navbar -->
      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid" style="width: 80%; margin-left: 126px;">
-            <div class="navbar-brand" style="margin-left: 12px;">
-                <img class="logo-redex-removebg-1" src="/image/logo-redex-removebg-10.png" />
+        <div class="container-fluid" >
+            <div class="navbar-brand" >
+                <img class="logo-redex-removebg-1" src="./image/logo-redex-removebg-10.png" />
             </div>
     
             <!-- ปุ่ม "hamburger" ที่มี data-bs-toggle="offcanvas" และ data-bs-target="#offcanvas" -->
@@ -57,7 +62,7 @@
     <!-- navbar -->
 
     <!-- banner -->
-    <div class="bg-banner">
+    <div class="bg-banner" style="margin: 0 auto;">
 
         <div class="banner">
 
@@ -76,7 +81,13 @@
                 </div>
             </div>
 
-            <div class="banner-r">
+            <div class="banner-r" 
+                 style="background: url('./image/contact-img-1.png') no-repeat;
+                 height: 401px;
+                 background-size: cover;
+                 float: left;
+                 margin-top: -1px;
+                 ">
                 
             </div>
 
@@ -86,21 +97,156 @@
     <!-- banner -->
 
     <!-- content -->
-    <div class="content-contact">
+    <div class="content-contact" style="margin: 40px auto;">
 
         <div class="container-contact row">
 
-            <div class="container-contact-l col-7">
+            <div class="container-contact-l col-7" 
+                 style="background: url('./image/contact-img-2.png') no-repeat;
+                        width: 680px;
+                        height: 400px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                 ">
                 
             </div>
             <div class="container-contact-r col-5">
                 
+                <!-- <div class="bg-box-contact">
+                    <div class="box-contact"></div>
+                </div> -->
+
+                <div class="title-content-contact">
+
+                    <div class="bg-box-contact">
+                        <div class="box-contact"></div>
+                    </div>
+
+                    <h1>Core Values</h1>
+
+                    <h2>relationship</h2>
+                    <h2>empathy</h2>
+                    <h2>determination</h2>
+                    <h2 id="experience">experience</h2>
+                    <script src="./js/experience.js"></script>
+                </div>
+
             </div>
 
         </div>
 
     </div>
     <!-- content -->
+
+    <div class="redex-welcome">
+        <img src="./image/redex-welcome.jpg" alt="">
+    </div>
+
+    <!-- section -->
+    <section>
+
+        <div class="container-map row">
+
+            <div class="profile-map col-7">
+
+                <img src="./image/redex-map.png" alt="">
+
+            </div>
+
+            <div class="map-info col-5">
+
+                <div class="bg-box-map">
+                    <div class="box-map"></div>
+                </div>
+
+                <div class="title-map">
+                    <h5>Let’s Talk</h5>
+
+                    <h1>Get in touch with us</h1>
+
+                    <p>
+                        Completely synergize resource taxing relationships 
+                        via premier niche ynamically innovate state of the 
+                        art customer service.
+                    </p>
+
+                </div>
+
+                <div class="send-me-contact1">
+                    <div class="icon-phone">
+                        <img src="./image/Icon-phone.png" alt="">
+                    </div>
+
+                    <div class="phone-detail">
+                        <p>Have any question?</p>
+                        <h5>+66(0)2-028-2899</h5>
+                    </div>
+                </div>
+
+                <div class="send-me-contact2">
+                    <div class="icon-email">
+                        <img src="./image/Icon-email.png" alt="">
+                    </div>
+
+                    <div class="email-detail">
+                        <p>Write email</p>
+                        <h5>contact@redex.co.th</h5>
+                    </div>
+                </div>
+
+                <div class="send-me-contact3">
+                    <div class="icon-map">
+                        <img src="./image/Icon-map.png" alt="">
+                    </div>
+
+                    <div class="map-detail">
+                        <p>Visit anytime</p>
+                        <h5>Chomphon, Chatuchak, Bangkok</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- section -->
+
+     <!-- scroll to top -->
+     <button class="scroll" id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+     <!-- scroll to top -->
+
+     <!-- footer -->
+    <footer class="footer row" style="width: 100%;">
+
+        <div class="container-footer">    
+
+            <div class="footer-name col-3">
+                <h2>
+                © COPYRIGHT 2019,<br>
+                RED EXCELLENT CO., LTD.
+                </h2>
+            </div>
+
+            <div class="footer-social col-3">
+                <h2>Social Media</h2>
+                
+                <img src="./image/facebook.png" alt="">
+                <img src="./image/twitter.png" alt="">
+                <img src="./image/www.png" alt="">
+            </div>
+
+            <div class="footer-info col-3">
+                <h2>Get in touch</h2>
+                <a href="">You can drop us an</a>
+                <a href="">Email at:contact@redex.co.th</a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- footer -->
     
     <script src="./js/scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
