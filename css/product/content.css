@@ -57,7 +57,9 @@
     height: auto;
     /* background-color: aqua; */
     margin: 60px auto;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
+    gap: 20px 60px;
 }
 .product {
     width: 350px;
