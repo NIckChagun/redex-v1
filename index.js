@@ -18,7 +18,7 @@ app.get('/about', (req, res) => {
 
 app.get('/product', (req, res) => { 
     res.render('product');
-});
+});  
 
 app.get('/contact', (req, res) => { 
     res.render('contact');
